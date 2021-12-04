@@ -37,6 +37,7 @@ const Register: React.FC = () => {
       )
       .required("This Filed is required "),
   });
+
   const handleRegister = (formValues: IUser) => {
     const { username, email, password } = formValues;
     console.log({
